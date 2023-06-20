@@ -1,4 +1,5 @@
-<?php include 'nav.php' ?>
+<?php include 'nav.php'
+?>
 <style>
     .row {
         background-color: black;

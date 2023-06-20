@@ -82,7 +82,10 @@
                         <img src="images/wing.jpeg">
                         <h6>Akatsuki</h6>
                         <h5>Accessories</h5>
-                        <i class='fas fa-arrow-circle-right'></i>
+                        <a href="./accessories.php">
+
+                            <i class='fas fa-arrow-circle-right'></i>
+                        </a>
                         <h4>Start Shopping</h4>
                     </div>
                 </div>
@@ -91,8 +94,11 @@
                         <img src="images/white_.jpg">
                         <h6>Akatsuki</h6>
                         <h5>Apperal</h5>
-                        <i class='fas fa-arrow-circle-right'></i>
-                         <h4>Start Shopping</h4>
+                        <a href="./clothing.php">
+
+                            <i class='fas fa-arrow-circle-right'></i>
+                        </a>
+                        <h4>Start Shopping</h4>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -100,7 +106,9 @@
                         <img src="images/poster.jpg">
                         <h6>Akatsuki</h6>
                         <h5>Posters</h5>
-                        <i class='fas fa-arrow-circle-right'></i>
+                        <a href="./poster.php">
+                            <i class='fas fa-arrow-circle-right'></i>
+                        </a>
                         <h4>Start Shopping</h4>
                     </div>
                 </div>

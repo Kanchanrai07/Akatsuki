@@ -77,23 +77,23 @@
                     <?php
                     if (isset($_SESSION['cart']) && count($_SESSION['cart']) > 0) {
                     ?>
-                        <form>
+                        <form action="purchase.php" method="POST">
                             <div class="form-group">
                                 <label>Full Name</label>
-                                <input type="text" name="full name" class="form-control">
+                                <input type="text" name="full_name" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label>Phone Number</label>
-                                <input type="number" name="phone number" class="form-control">
+                                <input type="number" name="phone_no" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label>Address</label>
-                                <input type="text" name="address" class="form-control">
+                                <input type="text" name="address" class="form-control" required>
                             </div>
 
 
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="pay_mod" value="COD" id="flexRadioDefault1">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     Online Payment
                                 </label>
@@ -104,7 +104,7 @@
                                     Cash on Delivery
                                 </label>
                             </div>
-                            <button class="btn btn-danger btn-block">Make Purchase</button>
+                            <button class="btn btn-danger btn-block" name="purchase">Make Purchase</button>
                         </form>
                     <?php
                     }
